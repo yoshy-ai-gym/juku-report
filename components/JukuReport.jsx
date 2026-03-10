@@ -649,7 +649,7 @@ ${form.comment}${form.concern ? `\n\n【気になったこと】\n${form.concern
               />
             </div>
             <div className="mb-4">
-              <div className="text-sm font-bold mb-1">提出期限 <span className="text-red-500 text-xs">必須</span></div>
+              <div className="text-base font-bold mb-1">提出期限（任意）</div>
               <input type="date" className="w-full border rounded-xl px-3 py-2 text-sm"
                 style={{ borderColor: C.border, background: "#FAFAF8" }}
                 value={form.homeworkDue}
