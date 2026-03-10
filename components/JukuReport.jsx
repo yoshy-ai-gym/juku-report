@@ -301,7 +301,7 @@ async function fetchAIPredictions(student, subject, grade) {
 単元のヒント: ${units.join("、")}`;
 
   try {
-    const res = await fetch("/api/predict", {
+    const res = await fetch("https://api.anthropic.com/v1/messages", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
