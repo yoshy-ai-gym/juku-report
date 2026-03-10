@@ -424,7 +424,7 @@ function ReportForm({ assignment, materials, onAddMaterial, onComplete, onSaveRe
     form.subject && form.material,
     form.unit && form.homeworkStatus && form.understanding,
     form.exerciseContent && form.exerciseResult,
-    form.homework && form.homeworkDue && form.studyGoal,
+    form.homework && form.studyGoal,
     form.attitude && form.comment,
   ];
 
